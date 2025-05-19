@@ -5,7 +5,7 @@ CNC Milling data preprocessing & analysis
 Assignment01_CNC/
 ├── data_analysis.ipynb                        # 데이터 분석 및 시각화
 ├── performance_metrics_suggestions            # 성능 평가 지표 개발
-└── experiments_simclr/                        # 번외 실험 : 라벨 없이 좋은 시각 표현을 학습할 수 있도록 대조 학습 기반 프레임워크(논문)를 활용하여 실험
+└── experiments_simclr/                        # 번외 실험(ing) : 분류모델개발
 ```
 
 
@@ -21,7 +21,7 @@ Wrap-up.
     - SNC를 시계열 대체 변수로 활용했지만, 실험마다 속도가 달라서 시간 단위가 다를 것 같음. 시간적 정밀도 부족..
 
 - 👏🏻Challenge(도전 및 개선할 점)
-    - 분류 모델 개발 (paper : A Simple Framework for Contrastive Learning of Visual Representations)
+    - (ing)분류 모델 개발 (paper : A Simple Framework for Contrastive Learning of Visual Representations)
         - 공정 센서 기반 시계열 유사 데이터
         - Random Forest로 beseline성능 확인 용도로만 사용
         - (challenge) SimCLR + Classifier 구조를 활용하여 모델 개발해보기

@@ -4,7 +4,8 @@ A Simple Framework for Contrastive Learning of Visual Representations(PMLR 22)
 - Self-supervised 방식으로 representation을 학습한 후, labeled 데이터를 사용해 classifier를 학습
 - 라벨이 부족할 때, 데이터의 구조를 잘 학습할 수 있도록 representation을 먼저 만들기 위해 해달 모델을 활용하는 편.
 - 데이터 구조를 벡터 공간 상의 유사도 학습하여 이해함.
- 
+
+
 ```
 simclr_experiment/
 ├── config/
