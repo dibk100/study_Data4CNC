@@ -1,0 +1,3 @@
+def compute_temporal_metrics(preds, labels, scn):
+    # 구간 단위 TP/FP/FN 및 custom score 반환
+    ...

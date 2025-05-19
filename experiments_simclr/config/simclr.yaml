@@ -1,0 +1,13 @@
+parameters:     # 실험할 하이퍼파라미터
+  lr:
+    values: [0.0001]
+  temperature :
+    values : [0.5]
+  epochs:
+    values: [100]      
+  batch_size:
+    values: [256]
+  augmentations:
+    values: [jitter, scaling, time_warp]        
+  hidden_dim :
+    values: [512]
